@@ -4,7 +4,6 @@ var resultado = document.getElementById("resultado");
 var player_opt = "";
 var enemy_opt = "";
 var audio_playing = [false, false, false];
-alert("Teste");
 
 function RedefinirEscolha() {
     for (var i = 0; i < opções.length; i++) {
