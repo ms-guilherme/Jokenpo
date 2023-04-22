@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+.options {
+    display: flex;
+}
+.enemy-options {
+    margin-left: auto;
+}
+.player-options img, .enemy-options img {
+    max-width: 150px;
+    opacity: 0.3;
+}
+.player-options img {
+    cursor: pointer;
+}
