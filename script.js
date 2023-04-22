@@ -64,7 +64,7 @@ for (var i = 0; i < opções.length; i++) {
         switch (player_opt) {
             case "pedra": 
                 if (audio_playing[0] == false) {
-                    let audio = new Audio("Mídia/rock_snd.mp3");
+                    let audio = new Audio("rock_snd.mp3");
                     audio.play();
                     audio_playing[0] = true;
                     audio.addEventListener('ended', ()=> {audio_playing[0] = false;});
@@ -72,7 +72,7 @@ for (var i = 0; i < opções.length; i++) {
             break
             case "papel": 
                 if (audio_playing[1] == false) {
-                    let audio = new Audio("Mídia/paper_snd.mp3");
+                    let audio = new Audio("paper_snd.mp3");
                     audio.play();
                     audio_playing[1] = true;
                     audio.addEventListener('ended', ()=> {audio_playing[1] = false;});
@@ -80,7 +80,7 @@ for (var i = 0; i < opções.length; i++) {
             break
             case "tesoura": 
                 if (audio_playing[2] == false) {
-                    let audio = new Audio("Mídia/scissor_snd.mp3");
+                    let audio = new Audio("scissor_snd.mp3");
                     audio.play();
                     audio_playing[2] = true;
                     audio.addEventListener('ended', ()=> {audio_playing[2] = false;});
